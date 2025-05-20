@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HackEthics138 - Cybersecurity & Ethical Hacking</title>
+  <meta name="description" content="Learn cybersecurity and ethical hacking with HackEthics138. Courses, tools, and resources for ethical hackers and security professionals.">
+  <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/src/styles/style.css" />
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="logo">
+          <a href="/" class="logo__link">
+            <span class="logo__text">Hack<span class="text-accent">Ethics</span>138</span>
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+            <li class="nav__item"><a href="#video" class="nav__link">Video</a></li>
+            <li class="nav__item"><a href="#courses" class="nav__link">Courses</a></li>
+            <li class="nav__item">
+              <a href="#shop" class="nav__link">Shop Tools</a>
+              <div class="dropdown">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item"><a href="#free-tools" class="dropdown__link">Free Tools</a></li>
+                  <li class="dropdown__item"><a href="#paid-tools" class="dropdown__link">Paid Tools</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          </ul>
+        </nav>
+        <div class="header__actions">
+          <button class="theme-toggle" aria-label="Toggle dark/light mode">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title" data-aos="fade-up" data-aos-delay="100">
+            <span class="text-primary">Security</span> is not just a feature,<br>
+            it's a <span class="text-accent">mindset</span>
+          </h1>
+          <p class="hero__subtitle" data-aos="fade-up" data-aos-delay="200">
+            Master the art of ethical hacking and cybersecurity with industry experts
+          </p>
+          <div class="hero__actions" data-aos="fade-up" data-aos-delay="300">
+            <a href="#courses" class="btn btn--primary">Explore Courses</a>
+            <a href="#about" class="btn btn--outline">Learn More</a>
+          </div>
+        </div>
+        <div class="hero__image" data-aos="fade-left" data-aos-delay="400">
+          <div class="hero__image-wrapper">
+            <div class="code-animation">
+              <pre><code id="typing-code"></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="scroll"></div>
+        </div>
+        <p>Scroll to explore</p>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Why <span class="text-accent">HackEthics138</span>?</h2>
+          <p class="section-subtitle">Learn cybersecurity from industry experts</p>
+        </div>
+        <div class="features__grid">
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="feature-card__icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3 class="feature-card__title">Expert-Led Training</h3>
+            <p class="feature-card__description">
+              Learn from cybersecurity professionals with years of industry experience
+            </p>
+          </div>
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-card__icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3 class="feature-card__title">Hands-On Labs</h3>
+            <p class="feature-card__description">
+              Practice in our custom-built virtual environments with real-world scenarios
+            </p>
+          </div>
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-card__icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3 class="feature-card__title">Industry Certification</h3>
+            <p class="feature-card__description">
+              Prepare for globally recognized certifications such as CEH, OSCP, and more
+            </p>
+          </div>
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-card__icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 class="feature-card__title">Community Support</h3>
+            <p class="feature-card__description">
+              Join our community of ethical hackers and security professionals
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="courses">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Our <span class="text-accent">Courses</span></h2>
+          <p class="section-subtitle">Comprehensive cybersecurity education</p>
+        </div>
+        <div class="course-filter" data-aos="fade-up">
+          <button class="course-filter__btn active" data-filter="all">All</button>
+          <button class="course-filter__btn" data-filter="beginner">Beginner</button>
+          <button class="course-filter__btn" data-filter="intermediate">Intermediate</button>
+          <button class="course-filter__btn" data-filter="advanced">Advanced</button>
+        </div>
+        <div class="courses__grid">
+          <div class="course-card" data-category="beginner" data-aos="fade-up" data-aos-delay="100">
+            <div class="course-card__image">
+              <img src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg" alt="Cybersecurity Fundamentals">
+              <div class="course-card__level">Beginner</div>
+            </div>
+            <div class="course-card__content">
+              <h3 class="course-card__title">Cybersecurity Fundamentals</h3>
+              <p class="course-card__description">
+                Learn the basics of cybersecurity, including threat landscape, security principles, and defense strategies.
+              </p>
+              <div class="course-card__details">
+                <span><i class="fas fa-clock"></i> 8 weeks</span>
+                <span><i class="fas fa-book"></i> 24 lessons</span>
+              </div>
+              <a href="#" class="btn btn--accent btn--sm">Learn More</a>
+            </div>
+          </div>
+          <div class="course-card" data-category="intermediate" data-aos="fade-up" data-aos-delay="200">
+            <div class="course-card__image">
+              <img src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg" alt="Ethical Hacking">
+              <div class="course-card__level">Intermediate</div>
+            </div>
+            <div class="course-card__content">
+              <h3 class="course-card__title">Ethical Hacking Essentials</h3>
+              <p class="course-card__description">
+                Master the techniques used by ethical hackers to identify and exploit vulnerabilities in systems.
+              </p>
+              <div class="course-card__details">
+                <span><i class="fas fa-clock"></i> 10 weeks</span>
+                <span><i class="fas fa-book"></i> 30 lessons</span>
+              </div>
+              <a href="#" class="btn btn--accent btn--sm">Learn More</a>
+            </div>
+          </div>
+          <div class="course-card" data-category="advanced" data-aos="fade-up" data-aos-delay="300">
+            <div class="course-card__image">
+              <img src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg" alt="Advanced Penetration Testing">
+              <div class="course-card__level">Advanced</div>
+            </div>
+            <div class="course-card__content">
+              <h3 class="course-card__title">Advanced Penetration Testing</h3>
+              <p class="course-card__description">
+                Deep dive into advanced penetration testing methodologies and techniques for security professionals.
+              </p>
+              <div class="course-card__details">
+                <span><i class="fas fa-clock"></i> 12 weeks</span>
+                <span><i class="fas fa-book"></i> 36 lessons</span>
+              </div>
+              <a href="#" class="btn btn--accent btn--sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-lg" data-aos="fade-up">
+          <a href="#" class="btn btn--primary">View All Courses</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Latest from the <span class="text-accent">Blog</span></h2>
+          <p class="section-subtitle">Stay updated with cybersecurity trends and insights</p>
+        </div>
+        <div class="blog__grid">
+          <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="blog-card__image">
+              <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="Zero-Day Vulnerabilities">
+            </div>
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__date"><i class="far fa-calendar"></i> June 12, 2025</span>
+                <span class="blog-card__category">Vulnerabilities</span>
+              </div>
+              <h3 class="blog-card__title">Understanding Zero-Day Vulnerabilities</h3>
+              <p class="blog-card__excerpt">
+                Zero-day vulnerabilities represent one of the most significant threats in cybersecurity today. Learn how to protect your systems...
+              </p>
+              <a href="#" class="blog-card__link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="blog-card__image">
+              <img src="https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg" alt="Ransomware Protection">
+            </div>
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__date"><i class="far fa-calendar"></i> May 28, 2025</span>
+                <span class="blog-card__category">Ransomware</span>
+              </div>
+              <h3 class="blog-card__title">Ransomware Protection Strategies for 2025</h3>
+              <p class="blog-card__excerpt">
+                With ransomware attacks on the rise, organizations need robust strategies to protect their critical assets and data...
+              </p>
+              <a href="#" class="blog-card__link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="blog-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="blog-card__image">
+              <img src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg" alt="Secure Code Review">
+            </div>
+            <div class="blog-card__content">
+              <div class="blog-card__meta">
+                <span class="blog-card__date"><i class="far fa-calendar"></i> May 15, 2025</span>
+                <span class="blog-card__category">Secure Coding</span>
+              </div>
+              <h3 class="blog-card__title">The Art of Secure Code Review</h3>
+              <p class="blog-card__excerpt">
+                Effective code review is a critical component of secure software development. Discover the best practices for identifying vulnerabilities...
+              </p>
+              <a href="#" class="blog-card__link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-lg" data-aos="fade-up">
+          <a href="#" class="btn btn--primary">View All Articles</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="video-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Video <span class="text-accent">Tutorials</span></h2>
+          <p class="section-subtitle">Learn visually with our in-depth video content</p>
+        </div>
+        <div class="video-showcase" data-aos="fade-up">
+          <div class="video-featured">
+            <div class="video-thumbnail">
+              <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Featured Video Tutorial">
+              <div class="play-button">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="video-content">
+              <h3 class="video-title">Practical Web Application Penetration Testing</h3>
+              <p class="video-description">
+                Learn how to identify and exploit common web vulnerabilities through this comprehensive step-by-step tutorial.
+              </p>
+              <div class="video-meta">
+                <span><i class="far fa-clock"></i> 45 minutes</span>
+                <span><i class="far fa-eye"></i> 12.5K views</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-grid">
+          <div class="video-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="video-card__thumbnail">
+              <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Network Security Basics">
+              <div class="play-button-sm">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="video-card__content">
+              <h4 class="video-card__title">Network Security Basics</h4>
+              <div class="video-card__meta">
+                <span>25 min</span>
+                <span>8.3K views</span>
+              </div>
+            </div>
+          </div>
+          <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="video-card__thumbnail">
+              <img src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg" alt="OSINT Techniques">
+              <div class="play-button-sm">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="video-card__content">
+              <h4 class="video-card__title">Advanced OSINT Techniques</h4>
+              <div class="video-card__meta">
+                <span>32 min</span>
+                <span>10.1K views</span>
+              </div>
+            </div>
+          </div>
+          <div class="video-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="video-card__thumbnail">
+              <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="Mobile App Security">
+              <div class="play-button-sm">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="video-card__content">
+              <h4 class="video-card__title">Mobile App Security Testing</h4>
+              <div class="video-card__meta">
+                <span>28 min</span>
+                <span>7.5K views</span>
+              </div>
+            </div>
+          </div>
+          <div class="video-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="video-card__thumbnail">
+              <img src="https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg" alt="IoT Vulnerabilities">
+              <div class="play-button-sm">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="video-card__content">
+              <h4 class="video-card__title">Exploiting IoT Vulnerabilities</h4>
+              <div class="video-card__meta">
+                <span>35 min</span>
+                <span>9.2K views</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-lg" data-aos="fade-up">
+          <a href="#" class="btn btn--primary">View All Videos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="shop">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Security <span class="text-accent">Tools</span></h2>
+          <p class="section-subtitle">Professional tools for ethical hackers and security professionals</p>
+        </div>
+        <div class="shop-tabs" data-aos="fade-up">
+          <button class="shop-tab active" data-tab="free-tools">Free Tools</button>
+          <button class="shop-tab" data-tab="paid-tools">Premium Tools</button>
+        </div>
+        <div class="shop-content">
+          <div class="shop-panel active" id="free-tools">
+            <div class="tools-grid">
+              <div class="tool-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="tool-card__icon">
+                  <i class="fas fa-search"></i>
+                </div>
+                <div class="tool-card__content">
+                  <h3 class="tool-card__title">Network Scanner</h3>
+                  <p class="tool-card__description">
+                    Open-source network scanning tool for identifying devices and services on a network.
+                  </p>
+                  <div class="tool-card__footer">
+                    <span class="tool-card__tag">Network</span>
+                    <a href="#" class="btn btn--sm btn--secondary">Download</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tool-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="tool-card__icon">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="tool-card__content">
+                  <h3 class="tool-card__title">Password Auditor</h3>
+                  <p class="tool-card__description">
+                    Check password strength and identify weak credentials in your systems.
+                  </p>
+                  <div class="tool-card__footer">
+                    <span class="tool-card__tag">Authentication</span>
+                    <a href="#" class="btn btn--sm btn--secondary">Download</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tool-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="tool-card__icon">
+                  <i class="fas fa-wifi"></i>
+                </div>
+                <div class="tool-card__content">
+                  <h3 class="tool-card__title">Wi-Fi Analyzer</h3>
+                  <p class="tool-card__description">
+                    Analyze Wi-Fi networks and identify potential security vulnerabilities.
+                  </p>
+                  <div class="tool-card__footer">
+                    <span class="tool-card__tag">Wireless</span>
+                    <a href="#" class="btn btn--sm btn--secondary">Download</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shop-panel" id="paid-tools">
+            <div class="tools-grid">
+              <div class="tool-card premium" data-aos="fade-up" data-aos-delay="100">
+                <div class="tool-card__icon">
+                  <i class="fas fa-bug"></i>
+                </div>
+                <div class="tool-card__content">
+                  <h3 class="tool-card__title">Advanced Vulnerability Scanner</h3>
+                  <p class="tool-card__description">
+                    Enterprise-grade vulnerability assessment tool with automated reporting.
+                  </p>
+                  <div class="tool-card__price">$499.99</div>
+                  <div class="tool-card__footer">
+                    <span class="tool-card__tag">Enterprise</span>
+                    <a href="#" class="btn btn--sm btn--accent">Purchase</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tool-card premium" data-aos="fade-up" data-aos-delay="200">
+                <div class="tool-card__icon">
+                  <i class="fas fa-lock"></i>
+                </div>
+                <div class="tool-card__content">
+                  <h3 class="tool-card__title">Encryption Suite Pro</h3>
+                  <p class="tool-card__description">
+                    Complete encryption toolkit for securing sensitive data and communications.
+                  </p>
+                  <div class="tool-card__price">$349.99</div>
+                  <div class="tool-card__footer">
+                    <span class="tool-card__tag">Data Security</span>
+                    <a href="#" class="btn btn--sm btn--accent">Purchase</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tool-card premium" data-aos="fade-up" data-aos-delay="300">
+                <div class="tool-card__icon">
+                  <i class="fas fa-robot"></i>
+                </div>
+                <div class="tool-card__content">
+                  <h3 class="tool-card__title">AI-Powered Threat Hunter</h3>
+                  <p class="tool-card__description">
+                    Machine learning-based tool for identifying advanced persistent threats.
+                  </p>
+                  <div class="tool-card__price">$799.99</div>
+                  <div class="tool-card__footer">
+                    <span class="tool-card__tag">Threat Intelligence</span>
+                    <a href="#" class="btn btn--sm btn--accent">Purchase</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__content" data-aos="fade-right">
+            <div class="section-header text-left">
+              <h2 class="section-title">About <span class="text-accent">HackEthics138</span></h2>
+              <p class="section-subtitle">Our mission and values</p>
+            </div>
+            <p class="about__text">
+              HackEthics138 was founded in 2022 by a team of cybersecurity professionals with a shared vision: to make high-quality security education accessible to everyone. We believe that understanding security is the first step to building a safer digital world.
+            </p>
+            <p class="about__text">
+              Our team consists of certified security experts, ethical hackers, and educators who bring real-world experience to our training programs. We're committed to providing practical, hands-on education that prepares our students for the challenges of the cybersecurity industry.
+            </p>
+            <div class="about__stats">
+              <div class="stat">
+                <div class="stat__number count-up" data-target="5000">5,000+</div>
+                <div class="stat__label">Students</div>
+              </div>
+              <div class="stat">
+                <div class="stat__number count-up" data-target="25">25+</div>
+                <div class="stat__label">Courses</div>
+              </div>
+              <div class="stat">
+                <div class="stat__number count-up" data-target="12">12</div>
+                <div class="stat__label">Expert Instructors</div>
+              </div>
+            </div>
+          </div>
+          <div class="about__image" data-aos="fade-left">
+            <img src="https://images.pexels.com/photos/8721342/pexels-photo-8721342.jpeg" alt="HackEthics138 Team">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="internship" class="internship">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Internship <span class="text-accent">Program</span></h2>
+          <p class="section-subtitle">Start your cybersecurity career with us</p>
+        </div>
+        <div class="internship__content">
+          <div class="internship__image" data-aos="fade-right">
+            <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" alt="Internship Program">
+          </div>
+          <div class="internship__details" data-aos="fade-left">
+            <h3 class="internship__title">Join Our Internship Program</h3>
+            <p class="internship__text">
+              Our internship program offers a unique opportunity to gain hands-on experience in cybersecurity and ethical hacking. Working alongside our experienced team, interns will:
+            </p>
+            <ul class="internship__list">
+              <li><i class="fas fa-check-circle"></i> Participate in real-world security assessments</li>
+              <li><i class="fas fa-check-circle"></i> Develop practical skills in various security domains</li>
+              <li><i class="fas fa-check-circle"></i> Receive mentorship from industry professionals</li>
+              <li><i class="fas fa-check-circle"></i> Build a portfolio of security projects</li>
+              <li><i class="fas fa-check-circle"></i> Gain industry certifications</li>
+            </ul>
+            <a href="#" class="btn btn--primary mt-md">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" data-aos="zoom-in">
+      <div class="container">
+        <div class="cta__content">
+          <h2 class="cta__title">Ready to Master Cybersecurity?</h2>
+          <p class="cta__text">Join thousands of students learning ethical hacking and cybersecurity with HackEthics138</p>
+          <div class="cta__actions">
+            <a href="#courses" class="btn btn--light">Explore Courses</a>
+            <a href="#" class="btn btn--outline-light">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__column">
+          <div class="footer__logo">
+            <span class="logo__text">Hack<span class="text-accent">Ethics</span>138</span>
+          </div>
+          <p class="footer__description">
+            Providing industry-leading cybersecurity education and ethical hacking resources since 2022.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__heading">Quick Links</h3>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#video">Videos</a></li>
+            <li><a href="#shop">Tools</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__heading">Resources</h3>
+          <ul class="footer__links">
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Cheat Sheets</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Community Forum</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__heading">Contact Us</h3>
+          <ul class="footer__contact">
+            <li><i class="fas fa-map-marker-alt"></i> 1234 Cyber Street, Tech City</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@hackethics138.com</li>
+          </ul>
+          <div class="footer__newsletter">
+            <h4 class="footer__newsletter-title">Subscribe to our newsletter</h4>
+            <div class="newsletter-form">
+              <input type="email" placeholder="Your email address" class="newsletter-input">
+              <button class="newsletter-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copyright">
+          &copy; 2025 HackEthics138. All rights reserved.
+        </div>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
